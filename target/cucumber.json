@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2691321300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios test page",
+            "match": {
+              "location": "TestSteps.User_is_on_the_Techfios_test_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4059892400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Sky Blue Background and White Background Setting",
+        "description": "",
+        "id": "color-change-feature-validation;sky-blue-background-and-white-background-setting",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182514300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the set blue background button",
+            "match": {
+              "location": "TestSteps.I_click_on_the_set_blue_background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104926400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "TestSteps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159147600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the set white background button",
+            "match": {
+              "location": "TestSteps.I_click_on_the_set_white_background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85168200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "TestSteps.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Color change feature validation",
+    "description": "",
+    "id": "color-change-feature-validation",
+    "keyword": "Feature",
+    "uri": "ColorChangeFeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  }
+]
